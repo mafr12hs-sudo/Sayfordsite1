@@ -1,0 +1,5 @@
+https://sayford.com.br/* https://www.sayford.com.br/:splat 301
+/app /aluno/ 302
+/app/ /aluno/ 302
+/app/* /aluno/ 302
+/aluno /aluno/ 301

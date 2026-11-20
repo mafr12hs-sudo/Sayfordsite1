@@ -1,0 +1,15 @@
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'self' {{STRUCTURED_DATA_HASH}}; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: microphone=(), camera=(), geolocation=()
+  X-Frame-Options: DENY
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/aluno/*
+  X-Robots-Tag: noindex, nofollow
+
+/privacidade.html
+  X-Robots-Tag: noindex, nofollow
