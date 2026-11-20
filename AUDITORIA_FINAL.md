@@ -2,9 +2,9 @@
 
 Atualização: 20 de novembro de 2026. Escopo: site institucional.
 
-As cinco páginas geradas estão sem marcadores editoriais pendentes. A campanha aprovada, os dois banners, a moldura e os oito prints originais foram preservados. O cabeçalho usa agora a assinatura horizontal da arte original de logo aprovada pelo proprietário. As condições comerciais foram completadas usando os registros de oferta atuais e o contrato mais recente. O texto apresenta a Sayford como escola; o nome do fundador aparece somente na identificação legal e nos comentários originais dos alunos.
+As cinco páginas geradas estão sem marcadores editoriais pendentes. A campanha aprovada, os dois banners, a moldura e os oito prints originais foram preservados. O cabeçalho usa agora a assinatura horizontal da arte original de logo aprovada pelo proprietário. As condições comerciais foram completadas usando os registros de oferta atuais e o contrato mais recente. O texto apresenta a Sayford como escola; o fundador é identificado apenas como criador da escola em seção institucional, sem se apresentar como professor.
 
-**Estado da publicação:** conteúdo disponível para revisão privada. O envio ao repositório público ainda depende de concluir a identificação no GitHub; a confirmação anterior expirou e uma nova confirmação foi solicitada no aplicativo. A identificação do fornecedor foi preenchida com o CPF do contrato na revisão privada; o proprietário autorizou a publicação nesta conversa, após a informação sobre a divulgação pública. O endereço profissional completo não consta dos materiais consultados: cidade e UF estão preenchidas, mas não foi inventada uma rua ou CEP.
+**Estado da publicação:** pacote revisado localmente; não foi enviado ao GitHub ou implantado na Cloudflare nesta revisão. O CPF foi removido da versão pública e do material de entrega. A suficiência da identificação comercial deve ser revisada juridicamente. O endereço profissional completo não consta dos materiais consultados: cidade e UF estão preenchidas, mas não foi inventada uma rua ou CEP.
 
 ## Decisões de conteúdo e sua fonte
 
@@ -39,7 +39,7 @@ O contrato de uma aluna contém uma mensalidade individual de R$ 299. Esse valor
 | --- | --- |
 | Versão publicada antiga | Identificada pelo conteúdo da inicial e pelo repositório `mafr12hs-sudo/Sayfordsite1` |
 | Repositório de publicação | Check público `Workers Builds: sayford-site` confirmado no commit anterior |
-| Apresentação pessoal | Removida a seção de professor, foto e textos em primeira pessoa |
+| Apresentação pessoal | Criada seção institucional do fundador, sem retrato, nem identificação como professor |
 | Carrossel principal | Dois banners originais, troca manual por botões, indicadores, teclado e gesto |
 | Depoimentos | Oito prints originais, sem recorte ou reescrita, com opção de ampliar |
 | Autoria | O arquivo `Lara-final.webp` é apresentado como Maria Alice, conforme o print |
@@ -54,7 +54,7 @@ O contrato de uma aluna contém uma mensalidade individual de R$ 299. Esse valor
 
 ## Verificações
 
-`npm test`: dez de dez testes aprovados. A validação estrutural das cinco páginas preenchidas foi concluída sem erros. Os recursos locais e as âncoras são verificados pela suíte. Os quatro banners desktop/mobile e os oito prints têm integridade conferida por hash.
+`npm test`: suíte de testes automatizados aprovada (inclui verificação de fundador e ausência de CPF público). A validação estrutural das cinco páginas preenchidas foi concluída sem erros. Os recursos locais e as âncoras são verificados pela suíte. Os quatro banners desktop/mobile e os oito prints têm integridade conferida por hash.
 
 A navegação dos carrosséis e o menu foram verificados no navegador. Início e Área do aluno foram revisados novamente com os textos finais nos layouts de 360, 390, 768 e 1440 px, sem rolagem lateral. O contraste da borda do botão outline é de 6,56:1. Não há analytics, pixels ou cookies próprios adicionados ao site.
 

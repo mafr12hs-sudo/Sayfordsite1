@@ -1,6 +1,6 @@
 # Sayford — site institucional
 
-Esta entrega recupera os banners aprovados e apresenta a Sayford como escola. O aplicativo e os dados dos alunos continuam separados.
+Esta entrega recupera os banners aprovados e apresenta a Sayford como escola, com Michael Fonseca identificado exclusivamente como fundador e criador (não como professor do site). O aplicativo e os dados dos alunos continuam separados.
 
 ## Publicar sem trocar a versão
 
@@ -12,7 +12,7 @@ Na integração atual da Cloudflare, manter o deploy command `npx wrangler deplo
 
 ## Verificar e gerar a pasta pública
 
-Requer Node.js 24 ou superior. O build e os dez testes não precisam instalar dependências.
+Validado com Node.js 22. O build e os onze testes automatizados não precisam instalar dependências.
 
 ```bash
 npm test
@@ -39,7 +39,7 @@ Após a migração, atualizar também `privacidade.html`, especialmente a seçã
 
 A metodologia, os preços, a duração, o FAQ e a privacidade foram preenchidos com as decisões e os documentos disponíveis. Consulte AUDITORIA_FINAL.md para a origem de cada condição. As páginas não mantêm marcadores editoriais pendentes.
 
-O pacote de revisão contém identificação pessoal do prestador obtida do contrato. A prévia com esses dados é privada. O proprietário autorizou o envio público após a explicação sobre o CPF. O endereço profissional completo ainda precisa ser informado antes de considerar encerrada a identificação comercial. Não confundir autorização para editar código com divulgação irrestrita de documento pessoal. Nenhum endereço ou CNPJ foi inventado.
+Esta versão não publica o CPF do responsável nem o armazena no pacote. A identificação visível informa nome, cidade, e os canais de contato existentes. O endereço profissional completo ainda não foi informado; não foi inventado endereço ou CNPJ. Conferir com assessoria jurídica quais dados cadastrais a oferta comercial precisa divulgar antes de considerar concluída a conformidade legal.
 
 Os oito prints de depoimentos são os arquivos originais do site do proprietário, copiados sem edição para assets/depoimentos. Os comentários podem citar o nome do fundador dentro da imagem; isso não cria uma apresentação dele como professor do visitante.
 
@@ -52,3 +52,12 @@ A troca é manual por anterior/próximo, indicadores e teclas de direção nos c
 A inicial não coleta formulários nem usa analytics. O contato é iniciado pelo visitante no WhatsApp. `_headers` inclui CSP restritiva com hash exato do JSON-LD, `nosniff`, política de referência e câmera/microfone desabilitados. `_redirects` faz `/app/` seguir para `/aluno/`, sem saída automática para o ChatGPT. `404.html` é a resposta para páginas inexistentes, conforme a configuração do Worker.
 
 O servidor `scripts/preview.mjs` inclui um harness interno de teste responsivo em `/__qa__/`. Esse código não é copiado para `dist/` nem implantado em produção. A exceção de enquadramento existe somente nesse servidor de revisão.
+
+## Revisão corrigida — 20/11/2026
+
+- `index.html`: seção "Quem criou a Sayford" identifica Michael Fonseca como **fundador e criador**, sem apresentá-lo como professor.
+- `index.html`, `aluno/index.html` e `privacidade.html`: CPF retirado das páginas de acesso público.
+- `dist/` foi regenerada pelo build e contém as mesmas correções.
+- O logo aprovado, oito prints de avaliações, campanhas, carrosséis e preços existentes não foram alterados.
+
+**No GitHub Desktop:** extraia o ZIP, copie o conteúdo (não a pasta externa nem o ZIP) para a pasta local do repositório, preserve a pasta oculta `.git`, volte ao GitHub Desktop, clique em `Commit to main` e depois em `Push origin`. A publicação depende ainda do deploy da Cloudflare.

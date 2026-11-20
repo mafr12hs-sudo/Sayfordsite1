@@ -153,3 +153,19 @@ test('o carrossel usa os oito prints originais íntegros, ampliáveis e com a au
  }
  assert.doesNotMatch(list(root).join('\n'),/depoimento-(?:estudo|conversa|escola)/);
 });
+
+
+test('a apresentação pública distingue o fundador do professor e não expõe número pessoal',()=>{
+ const html=read('index.html');
+ const founder=html.match(/<section class="section founder"[\s\S]*?<\/section>/)?.[0];
+ assert.ok(founder,'seção do fundador ausente');
+ assert.match(founder,/Michael Fonseca/);
+ assert.match(founder,/Fundador e criador da Sayford/);
+ assert.doesNotMatch(founder,/(?:professor Michael|seu professor Michael|CEO)/i);
+ assert.match(read('assets/sayford.css'),/\.founder-layout/);
+ for(const path of pages){
+  const page=read(path);
+  assert.doesNotMatch(page,/\b\d{3}\.\d{3}\.\d{3}-\d{2}\b/,`${path}: número pessoal com máscara de CPF`);
+  assert.doesNotMatch(page,/CPF\/CNPJ|CPF [0-9]/i,`${path}: identificação pessoal indevida`);
+ }
+});
