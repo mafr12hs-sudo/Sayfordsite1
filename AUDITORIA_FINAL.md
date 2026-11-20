@@ -4,7 +4,7 @@ Atualização: 20 de novembro de 2026. Escopo: site institucional.
 
 As cinco páginas geradas estão sem marcadores editoriais pendentes. A campanha aprovada, os dois banners, a moldura e os oito prints originais foram preservados. O cabeçalho usa agora a assinatura horizontal da arte original de logo aprovada pelo proprietário. As condições comerciais foram completadas usando os registros de oferta atuais e o contrato mais recente. O texto apresenta a Sayford como escola; o nome do fundador aparece somente na identificação legal e nos comentários originais dos alunos.
 
-**Estado desta entrega:** o pacote e o logo foram aprovados pelo proprietário, e a autenticação da conta GitHub foi concluída. O envio com CPF foi recusado pela revisão automática por falta de autorização específica inequívoca para divulgar esse identificador no repositório público. Esta versão pública não contém CPF: preserva somente o nome e os contatos profissionais, cidade e UF. A identificação fiscal e o endereço profissional completo permanecem pendentes. Nenhum dado foi inventado. A publicação deve ser conferida no histórico do repositório e no build da Cloudflare.
+**Estado da publicação:** conteúdo disponível para revisão privada. O envio ao repositório público ainda depende de concluir a identificação no GitHub; a confirmação anterior expirou e uma nova confirmação foi solicitada no aplicativo. A identificação do fornecedor foi preenchida com o CPF do contrato na revisão privada; o proprietário autorizou a publicação nesta conversa, após a informação sobre a divulgação pública. O endereço profissional completo não consta dos materiais consultados: cidade e UF estão preenchidas, mas não foi inventada uma rua ou CEP.
 
 ## Decisões de conteúdo e sua fonte
 
@@ -60,7 +60,7 @@ A navegação dos carrosséis e o menu foram verificados no navegador. Início e
 
 ## O que não foi concluído ou não se afirma
 
-A autenticação do proprietário foi verificada no GitHub. A confirmação de publicação depende do commit no repositório e do resultado do deploy, sem presumir que uma etapa equivale à outra. A publicação do site foi autorizada; o CPF foi excluído desta entrega pública e depende de autorização específica. Falta informar um endereço profissional completo para identificação comercial completa. O conteúdo da privacidade não representa garantia de adequação jurídica integral, e não foram inventados países de armazenamento ou ciclos de backup dos provedores.
+A autenticação do GitHub ainda é uma etapa distinta da autorização já concedida pelo proprietário; é necessário concluir a confirmação no aplicativo. Não foi declarado um envio público que não ocorreu. A autorização de publicação foi registrada após a explicação sobre a identificação pessoal. Falta informar um endereço profissional completo para identificação comercial completa. O conteúdo da privacidade não representa garantia de adequação jurídica integral, e não foram inventados países de armazenamento ou ciclos de backup dos provedores.
 
 A migração do aplicativo, a distribuição pública de APK e a versão iPhone não fazem parte desta atualização. O site informa o estágio real e não contém login fictício. Não foram modificados DNS, e-mail ou a política técnica de voz.
 
@@ -96,8 +96,3 @@ Contrato de prestação de serviços educacionais atualizado em 19/11/2026; docu
 - https://developers.cloudflare.com/workers/static-assets/redirects/
 - https://www2.camara.leg.br/legin/fed/decret/2013/decreto-7962-15-marco-2013-775557-publicacaooriginal-139266-pe.html
 - https://planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm
-
-
-## Limite da versão pública
-
-A revisão automática recusou o envio dos arquivos com CPF porque a autorização de publicar o site não estabeleceu de forma inequívoca o consentimento para tornar esse documento público. A alternativa adotada exclui o CPF tanto das páginas quanto dos arquivos de fonte enviados ao GitHub. O site pode ser examinado e a publicação técnica concluída; a identificação comercial não deve ser considerada integralmente finalizada até a regularização fiscal e do endereço profissional.

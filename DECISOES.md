@@ -41,14 +41,4 @@ A privacidade distingue a retenção de voz dos demais dados, descreve os operad
 
 A assinatura horizontal é a arte original “Conceito de logo Sayford minimalista.png”, aprovada pelo proprietário e solicitada para o topo nesta entrega. O arquivo inteiro está preservado em `assets/sayford-logo-aprovado.png`; o enquadramento é feito por CSS, sem redesenhar letras ou símbolo. A assinatura substitui o texto genérico do cabeçalho institucional e das páginas de acesso, privacidade e erro. Os banners, a moldura, os depoimentos e os dados do aplicativo permanecem preservados.
 
-O proprietário autorizou o envio ao GitHub após a revisão, pedindo apenas a inclusão do logo antes da publicação. A autorização de publicar o site não foi tratada como consentimento específico para divulgar o CPF no site ou no repositório público. O endereço profissional completo não foi informado; continua sendo uma pendência real, sem rua ou CEP inventados. A verificação da conta GitHub ainda precisa ser concluída antes de qualquer confirmação de envio.
-
-
-## Acesso de publicação confirmado — 20/11/2026
-
-O proprietário confirmou a verificação do GitHub; a sessão mostrou a conta `mafr12hs-sudo` autenticada e identificada como dona de `Sayfordsite1`. O envio autorizado usa esse repositório, conectado ao Worker `sayford-site`, com os arquivos completos e o build em `dist/`.
-
-
-## Versão pública sem CPF — 20/11/2026
-
-A revisão automática bloqueou o upload que incluía CPF por falta de confirmação específica inequívoca dessa divulgação. Para concluir o trabalho autorizado sem expor o documento, o CPF foi retirado das páginas e dos arquivos enviados ao GitHub. Foram mantidos o nome e os canais profissionais de contato. A identificação fiscal completa e o endereço profissional continuam pendentes e não foram inventados. Não enviar o histórico Git local anterior que continha esse documento; a publicação usa somente os arquivos saneados.
+O proprietário autorizou o envio ao GitHub após a revisão, pedindo apenas a inclusão do logo antes da publicação. A autorização foi dada em resposta à explicação sobre a identificação pessoal no site/repositório público. O endereço profissional completo não foi informado; continua sendo uma pendência real, sem rua ou CEP inventados. A verificação da conta GitHub ainda precisa ser concluída antes de qualquer confirmação de envio.

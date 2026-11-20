@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /aluno/
+Disallow: /app/
+
+Sitemap: https://www.sayford.com.br/sitemap.xml

@@ -39,7 +39,7 @@ Após a migração, atualizar também `privacidade.html`, especialmente a seçã
 
 A metodologia, os preços, a duração, o FAQ e a privacidade foram preenchidos com as decisões e os documentos disponíveis. Consulte AUDITORIA_FINAL.md para a origem de cada condição. As páginas não mantêm marcadores editoriais pendentes.
 
-O pacote público não contém CPF. Foram mantidos o nome e os canais profissionais de contato, cidade e UF. A identificação fiscal depende de autorização específica do proprietário para divulgação pública e o endereço profissional completo ainda precisa ser informado. Esses pontos permanecem pendentes; nenhum endereço ou CNPJ foi inventado. Não envie o histórico Git local anterior que continha o documento: use somente os arquivos saneados desta entrega.
+O pacote de revisão contém identificação pessoal do prestador obtida do contrato. A prévia com esses dados é privada. O proprietário autorizou o envio público após a explicação sobre o CPF. O endereço profissional completo ainda precisa ser informado antes de considerar encerrada a identificação comercial. Não confundir autorização para editar código com divulgação irrestrita de documento pessoal. Nenhum endereço ou CNPJ foi inventado.
 
 Os oito prints de depoimentos são os arquivos originais do site do proprietário, copiados sem edição para assets/depoimentos. Os comentários podem citar o nome do fundador dentro da imagem; isso não cria uma apresentação dele como professor do visitante.
 
