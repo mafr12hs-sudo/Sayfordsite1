@@ -1,0 +1,6 @@
+dist/
+node_modules/
+.openai/
+.wrangler/
+.env*
+*.zip
